@@ -7,5 +7,7 @@ before_install:
   - npm i -g npm@latest
 install:
   - npm install
-  - cd example
+  - cd examples/nodejs
+  - npm install
+  - cd ../browser
   - npm install
